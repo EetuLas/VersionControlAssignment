@@ -24,6 +24,10 @@ const Images = () => {
                 {catImages.map((cat, index) => (
                     <li key={index}>
                         <img src={cat.url} alt={`Random cat ${index + 1}`} width="300" />
+                        <br />
+                        <a href={cat.url} zoom={`cat-${index + 1}.jpg`}>
+                            Zoom Image
+                        </a>
                     </li>
                 ))}
             </ul>
