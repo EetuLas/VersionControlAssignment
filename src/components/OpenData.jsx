@@ -3,8 +3,6 @@ import axios from "axios";
 
 const Images = () => {
     const [catImages, setCatImages] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
 
     useEffect(() => {
         const fetchCatImages = async () => {
