@@ -1,13 +1,13 @@
 import React from "react"
-import Facts from './components/OpenData';
+import Images from './components/OpenData';
 
 function App() {
   return (
     <div>
       <header>
-        <h1>Welcome to the Cat Facts App!</h1>
+        <h1>Welcome to the Cat Images App!</h1>
       </header>
-      <Facts />
+      <Images />
     </div>
   )
 }
