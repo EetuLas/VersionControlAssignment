@@ -1,5 +1,5 @@
 import React from "react"
-import Images from './components/OpenData';
+import Images from './components/OpenDataAssignment';
 
 function App() {
   return (
