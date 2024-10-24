@@ -27,10 +27,27 @@ function Dropdown() {
   )
 }
 
+function QuantitySelector() {
+  const [quantity, setQuantity] = useState(1);
+
+  const increaseQuantity = () => { setQuantity(prevQuantity => prevQuantity + 1); }
+  const decreaseQuantity = () => { setQuantity(prevQuantity => (prevQuantity > 1 ? prevQuantity - 1 : 1)); }
+
+  return (
+    <div>
+      <h3>Quantity</h3>
+      <button onClick={decreaseQuantity}>-</button>
+      <span>{quantity}</span>
+      <button onClick={increaseQuantity}>+</button>
+    </div>
+  );
+}
+
 function UI() {
   return (
     <div>
       <Dropdown />
+      <QuantitySelector />
     </div>
   )
 }
