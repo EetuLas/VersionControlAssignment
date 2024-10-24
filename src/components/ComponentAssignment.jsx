@@ -29,7 +29,7 @@ function QuantitySelector() {
     <div>
       <h3>Quantity</h3>
       <button onClick={decreaseQuantity}>-</button>
-      <span>{quantity}</span>
+      <span> {quantity} </span>
       <button onClick={increaseQuantity}>+</button>
     </div>
   );
