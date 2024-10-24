@@ -6,7 +6,14 @@ function Header() {
         <h1>Welcome to product page!</h1>
       </header>
     );
-  }
+}
+
+function UI() {
+  return (
+    <h3>Select product</h3>
+    
+  )
+}
 
 function ProductPage() {
     return (
