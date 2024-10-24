@@ -1,13 +1,5 @@
 import React, { useState } from "react";
 
-function Header() {
-    return (
-      <header>
-        <h1>Welcome to product page!</h1>
-      </header>
-    );
-}
-
 function Dropdown() {
   const [selectedOption, setSelectedOption] = useState('')
   const handleChange = (event) => {
@@ -55,7 +47,6 @@ function UI() {
 function ProductPage() {
     return (
         <div>
-            <Header />
             <UI />
         </div>
     )
