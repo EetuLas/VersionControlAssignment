@@ -5,7 +5,7 @@ import Images from './components/OpenDataAssignment';
 function App() {
   return (
     <div>
-      <Header title="Welcome to the Cat Images App!" image={null}/>
+      <Header title="Welcome to the Cat Images App!"/>
       <Images />
     </div>
   )

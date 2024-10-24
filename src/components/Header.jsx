@@ -1,9 +1,8 @@
 import React from 'react';
 
-function Header({ title, image }) {
+function Header({ title }) {
   return (
     <header>
-      <img src={image} alt="Header Logo"/>
       <h1>{title}</h1>
     </header>
   );
