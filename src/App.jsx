@@ -1,12 +1,11 @@
 import React from "react"
+import Header from "./components/Header";
 import Images from './components/OpenDataAssignment';
 
 function App() {
   return (
     <div>
-      <header>
-        <h1>Welcome to the Cat Images App!</h1>
-      </header>
+      <Header title="Welcome to the Cat Images App!" image={null}/>
       <Images />
     </div>
   )
