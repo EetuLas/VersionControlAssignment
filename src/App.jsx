@@ -1,10 +1,10 @@
 import React from "react"
-import productPage from './components/ComponentAssignment';
+import ProductPage from './components/ComponentAssignment';
 
 function App() {
   return (
     <div>
-      <productPage />
+      <ProductPage />
     </div>
   )
 }

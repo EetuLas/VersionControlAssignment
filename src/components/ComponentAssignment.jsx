@@ -8,7 +8,7 @@ function Header() {
     );
   }
 
-function productPage() {
+function ProductPage() {
     return (
         <div>
             <Header />
@@ -16,4 +16,4 @@ function productPage() {
     )
 }
 
-export default productPage;
+export default ProductPage;
