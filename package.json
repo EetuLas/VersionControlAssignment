@@ -2,7 +2,7 @@
   "name": "version-control-assignment",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/EetuLas/VersionControlAssignment",
+  "homepage": "https://EetuLas.github.io/VersionControlAssignment",
   "type": "module",
   "scripts": {
     "dev": "vite",
