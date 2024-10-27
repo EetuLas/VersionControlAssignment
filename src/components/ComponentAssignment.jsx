@@ -25,7 +25,6 @@ function Dropdown({ onProductSelect }) {
 
 function QuantitySelector({onQuantityChange}) {
   const [quantity, setQuantity] = useState(1);
-
   const increaseQuantity = () => {
     const newQuantity = quantity + 1;
     setQuantity(newQuantity);
